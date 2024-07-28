@@ -1,0 +1,31 @@
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 32px;
+    align-items: center;
+}
+
+li, a {
+    list-style: none;
+    font-family: var(--v-font-family);
+    font-size: var(--text);
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    column-gap:16px;
+    padding-block: 8px;
+}
+
+.profile-pic {
+    width: 40px;
+}
+
+a:hover {
+    color: var(--color-brand);
+    text-decoration: underline;
+}
+
