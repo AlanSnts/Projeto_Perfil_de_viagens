@@ -1,0 +1,16 @@
+#footer {
+    display: flex;
+    justify-content: space-between;
+    padding-block: 24px;
+}
+
+
+
+#footer > div > span {
+    margin-left: 16px ;
+    font-family: var(--v-font-family);
+}
+
+#footer > div > p {
+    font-family: var(--v-font-family);
+}
