@@ -48,4 +48,7 @@ header > ul > li > span {
 header > ul > li > img {
     position: relative;
     top: 2px;
+    width: 24px;
+    padding: 1px;
+    object-fit: contain;
 }
